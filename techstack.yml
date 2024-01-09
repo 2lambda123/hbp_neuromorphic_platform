@@ -1,0 +1,315 @@
+repo_name: 2lambda123/hbp_neuromorphic_platform
+report_id: cecc4abefc8749c10e60c2a8e9614c9d
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T07:56:29+00:00'
+requested_by: apdavison
+provider: github
+branch: master
+detected_tools_count: 23
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform
+  detection_source: Repo Metadata
+- name: FastAPI
+  description: A high performance, easy to learn, fast to code, ready for production
+    web framework
+  website_url: https://fastapi.tiangolo.com/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/25014/default_f6ff39141b468e832d1bc59fc98a060df604d44d.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/documentation/Dockerfile
+  detection_source: documentation/Dockerfile
+  last_updated_by: Andrew Davison
+  last_updated_on: 2019-10-01 09:51:52.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/.github/workflows/ebrains.yml
+  detection_source: ".github/workflows/ebrains.yml"
+  last_updated_by: Andrew Davison
+  last_updated_on: 2023-11-16 13:52:23.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements_testing.txt
+  detection_source: api/requirements_testing.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-11-15 13:36:58.000000000 Z
+- name: flake8
+  description: Tool for style guide enforcement
+  website_url: https://github.com/PyCQA/flake8
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4838/default_c37162891c64eca7fafe782d9c191e409aae1e93.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements_testing.txt
+  detection_source: api/requirements_testing.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-11-25 15:03:17.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements_testing.txt
+  detection_source: api/requirements_testing.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-11-15 13:36:58.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform
+  detection_source: Repo Metadata
+- name: Authlib
+  description: The ultimate Python library in building OAuth and OpenID Connect servers
+  package_url: https://pypi.org/project/Authlib
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20752/default_cf2c193a97e2b1ce404093ff2bc569ddeeeb005b.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
+- name: databases
+  description: Async database support for Python
+  package_url: https://pypi.org/project/databases
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
+- name: itsdangerous
+  description: Various helpers to pass data to untrusted environments and back
+  package_url: https://pypi.org/project/itsdangerous
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19989/default_b1f1fc9c4c59a78443018e01395203ba8c61dcde.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements_testing.txt
+  detection_source: api/requirements_testing.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-11-15 13:36:58.000000000 Z
+- name: pytest-cov
+  description: Pytest plugin for measuring coverage
+  package_url: https://pypi.org/project/pytest-cov
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19958/default_e91a78767854f0fa80aab2f13d1a25b15ca2d278.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements_testing.txt
+  detection_source: api/requirements_testing.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-11-15 13:36:58.000000000 Z
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements_testing.txt
+  detection_source: api/requirements_testing.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-11-15 13:36:58.000000000 Z
+- name: python-slugify
+  description: A Python Slugify application that handles Unicode
+  package_url: https://pypi.org/project/python-slugify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19986/default_aa331bbc48e2faa54aa26e08880b772595f833b8.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Hassen Aguili
+  last_updated_on: 2022-10-24 15:04:07.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-18 12:34:48.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 1.26.15
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2023-05-26 11:17:42.000000000 Z
+  vulnerabilities:
+  - name: urllib3's request body not stripped after redirect from 303 status changes
+      request method to GET
+    cve_id: CVE-2023-45803
+    cve_url: https://github.com/advisories/GHSA-g4mx-q9vg-27p4
+    detected_date: Oct 18
+    severity: moderate
+    first_patched: 1.26.18
+  - name: "`Cookie` HTTP header isn't stripped on cross-origin redirects"
+    cve_id: CVE-2023-43804
+    cve_url: https://github.com/advisories/GHSA-v845-jxx5-vc9f
+    detected_date: Oct 3
+    severity: moderate
+    first_patched: 1.26.17
+- name: uvicorn
+  description: The lightning-fast ASGI server
+  package_url: https://pypi.org/project/uvicorn
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20431/default_f824837db22536768ec317b67275fa384fad7d47.png
+  detection_source_url: https://github.com/2lambda123/hbp_neuromorphic_platform/blob/master/api/requirements.txt
+  detection_source: api/requirements.txt
+  last_updated_by: Andrew Davison
+  last_updated_on: 2022-02-14 12:32:51.000000000 Z
