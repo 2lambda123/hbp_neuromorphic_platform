@@ -48,7 +48,7 @@ class TestDrive:
         assert updated_url != file.url
 
         # read file contents from new URL and check contents
-        response = requests.get(updated_url)
+        response = requests.get(updated_url, timeout=60)
         assert response.status_code == 200
         assert response.text == "# test_file\n\n\n\nThis file is used for testing.\n\n\n"
 
@@ -106,12 +106,12 @@ class TestBucket:
         response = requests.get(
             updated_url + "?redirect=false",
             headers={"Authorization": f"Bearer {mock_user.token['access_token']}"},
-        )
+        timeout=60)
         assert response.status_code == 200
         redirect_url = response.json()["url"]
 
         # read file contents from redirect URL and check contents
-        response2 = requests.get(redirect_url)
+        response2 = requests.get(redirect_url, timeout=60)
         assert response2.status_code == 200
         assert response2.text == "# test_file\n\n\n\nThis file is used for testing.\n\n\n"
 
