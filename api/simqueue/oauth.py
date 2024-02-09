@@ -30,7 +30,7 @@ oauth.register(
 async def get_collab_info(collab, token):
     collab_info_url = f"{settings.HBP_COLLAB_SERVICE_URL}collabs/{collab}"
     headers = {"Authorization": f"Bearer {token}"}
-    res = requests.get(collab_info_url, headers=headers)
+    res = requests.get(collab_info_url, headers=headers, timeout=60)
     response = res.json()
     if isinstance(response, dict) and "code" in response and response["code"] == 404:
         raise ValueError("Invalid collab id")
